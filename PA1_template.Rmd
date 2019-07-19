@@ -16,6 +16,7 @@ knitr::opts_chunk$set(error = TRUE)
 ## Loading and preprocessing the data
 ```{r Loading, echo=TRUE}
 inputData <- activity
+inputData <- read.csv("activity.csv")
 ```
 
 
