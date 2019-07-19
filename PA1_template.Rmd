@@ -2,16 +2,20 @@
 title: "Untitled"
 author: "Shy"
 date: "7/19/2019"
-output: html_document
+output: 
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
 ---
 
 # Reproducible Research: Peer Assessment 1
-
+```{r, echo=FALSE}
+knitr::opts_chunk$set(error = TRUE)
+```
 
 ## Loading and preprocessing the data
 ```{r Loading, echo=TRUE}
 inputData <- activity
-inputData <- read.csv("activity")
 ```
 
 
